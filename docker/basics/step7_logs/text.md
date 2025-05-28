@@ -9,8 +9,11 @@ Previously, we created a detached nginx container. Make sure the container is st
 `docker run -d --name nginx_test -p 8000:80 nginx_test nginx:latest`{{exec}}
 
 Having the running container, we can check the logs with:
-`docker logs nginx_test > /tmp/nginx_logs.txt 2>&1`{{exec}}
+`docker logs nginx_test`{{exec}}
+You should see the output from nginx that typically comes up, when starting the server.
 
+Next, we can also keep a copy of the logs for later analysis by piping the output into a file:
+`docker logs nginx_test > /tmp/nginx_logs.txt 2>&1`{{exec}}
 You should see the output from nginx that were written in the file `/tmp/nginx_logs.txt` with: `cat /tmp/nginx_logs.txt`{{exec}}
 
 # docker exec
