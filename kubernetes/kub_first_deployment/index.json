@@ -12,15 +12,18 @@
       },
       {
         "title": "Create Deployment",
-        "text": "step2_create_deployment.md"
+        "text": "step2_create_deployment/text.md",
+        "verify": "step2_create_deployment/verify.sh"
       },
       {
         "title": "Scale Deployment",
-        "text": "step3_scaling.md"
+        "text": "step3_scaling/text.md",
+        "verify": "step3_scaling/verify.sh"
       },
       {
         "title": "Delete Deployment",
-        "text": "step4_delete.md"
+        "text": "step4_delete/text.md",
+        "verify": "step4_delete/verify.sh"
       }
     ],
     "finish": {

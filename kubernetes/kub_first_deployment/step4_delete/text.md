@@ -29,14 +29,9 @@ In our case this would be:
 Let's verify the result.
 
 `kubectl get deployments`{{exec}}
-
-| NAME                  | READY | UP-TO-DATE  | AVAILABLE |   AGE  | 
-| --------------------- |:-----:| -----------:| ---------:| ------:|
+No resources found in default namespace.
 
 `kubectl get pods`{{exec}}
+No resources found in default namespace.
 
-| NAME                                    | READY | STATUS  | RESTARTS |  AGE | 
-| --------------------------------------- |:-----:| -------:| :--------| :---:| 
-
-Executing both, `kubectl get deployments` and `kubectl get pods` should return empty tables.
 In case you find `kubectl get pods` still returning some pods, just wait a bit and enter the command again.

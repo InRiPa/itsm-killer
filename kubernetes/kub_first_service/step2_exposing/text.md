@@ -45,4 +45,4 @@ Calling our service:
 
 `curl $SRVIP:8080`{{exec}}
 
-We should see the infamous nginx welcome page. 
+We should see the infamous nginx welcome page.
