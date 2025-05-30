@@ -18,4 +18,4 @@ You'll learn about:
 * `kubectl delete`
 
 
-
+*v0.5*
